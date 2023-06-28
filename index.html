@@ -1,0 +1,254 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <link rel="stylesheet" href="./animations.css">
+    <title>Integrador Nucba</title>
+</head>
+<body>
+    <header>
+
+        <div class="movement-marca">
+            <img src="./assets/Move_logo.png" alt="Logo Move" class="movement-logo">
+            <p>MOVEMENT</p>
+        </div>
+
+        <nav class="navbar">
+
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/menu icono 2.png" alt="Icono-menu">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
+            <ul class="navbar-list">
+                <li><a href="#hero">INICIO</a></li>
+                <li><a href="#about">SOBRE MI</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#consultas">CONTACTO</a></li>
+                <li><a href="#">MI CUENTA</a></li>
+            </ul>
+
+            <label for="cart-toggle" class="cart-label">
+                <img src="./assets/Carrito.png" alt="Carrito de compras" class="cart-icon">
+            </label>
+            <input type="checkbox" id="cart-toggle">
+
+            <div class="cart">
+                <h2>Mis planes</h2>
+                <div class="cart-item">
+                    <img src="./assets/8.png" alt="imagen-iniciación">   
+                    <div class="cart-info">
+                        <h3 class="item-title">Iniciación</h3>
+                        <p class="item-plan">Plan mensual</p>
+                        <span class="item-precio">$3000</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler-down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler-up">+</span>
+                    </div>
+                </div>    
+                <div class="cart-total">
+                    <h3>Total</h3>
+                    <span>$3000</span>
+                </div>
+                <button>Finalizar</button>  
+                
+            </div>
+            <div class="overlay"></div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            
+            <div class="hero-info">
+                <h1>MOVEMENT</h1>
+                <p>Encontrarás planes de entrenamiento funcional orientado a objetivos saludables.<br>
+                Accederás a ejercicios explicados paso a paso, puntos a tener en cuenta y videos de ejecución. <br>
+                Los planes se renuevan de manera mensual. Podes acceder a ellos, cada mes o con una suscripción anual. <br></p>
+                <a href="#">Más Información</a>
+            </div>
+
+            <div class="hero-card">
+                <img src="./assets/Card.png" alt="Imagen ejercicio">
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-info">
+                <img src="./assets/Icono sobre mi.png" alt="Icono de persona" class="About-icono">
+                <h2>SOBRE MI</h2><br>
+                <p><span>&#128075;</span> Me presento... Mi nombre es Daniela, soy de Profesora en Educación Física. <br>
+                    Tengo certificación en Instructorado de Entrenamiento Funcional y Fitness Aplicado al Sobrepeso y Obesidad. <br>
+                    He adquirido con muchos años de estudio, los conocimientos y la capacidad necesaria para hacer del ejercicio físico un aliado en tu vida.
+                    Moverse forma parte de una necesidad del ser humano, <b>estamos hechos para el movimiento</b>. 
+                </p>
+            </div>
+        </section>
+        
+        <section id="servicios">
+
+            <div class="servicios-info">
+                <h2>PLANES DE ENTRENAMIENTO</h2>
+                <h3>Elegí el plan de entrenamiento que mejor se adapte a vos. </h3>
+                <h4><span>&#128073;</span> Tené en cuenta el objetivo y el tiempo del plan.</h4>
+            </div>
+
+            <div class="servicios-cards">
+
+                <div class="card-info">
+                    <img src="./assets/1.png" alt="Icono-ejercicio">
+                    
+                    <div class="card-text">
+                        <h4>Salud y Bienestar</h4>
+                        <h5>Objetivo: Reducir el tejido adiposo</h5>
+                        <p>Ideal para personas con sobrepeso y obesidad.<br></p>
+                        <h6>PLAN MENSUAL</h6>
+                    </div>
+                    <div class="card-button">
+                        <span>$3000</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card-info">    
+                    <img src="./assets/8.png" alt="Icono-ejercicio">
+                    <div class="card-text">
+                        <h4>Iniciación</h4>
+                        <h5>Objetivo: Movilidad muscular</h5>
+                        <p>Personas principiantes, sedentarias o adultos mayores. <br></p>
+                        <h6>PLAN MENSUAL</h6>
+                    </div>
+                    <div class="card-button">
+                        <span>$3000</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card-info">
+                    <img src="./assets/6.png" alt="Icono-ejercicio">
+                    <div class="card-text">
+                        <h4>Fortalecimiento</h4>
+                        <h5>Objetivo: Perfeccionar las capacidades físicas.</h5>
+                        <p>Personas con entrenamiento previo. <br></p>
+                        <h6>PLAN MENSUAL</h6>
+                    </div>
+                    <div class="card-button">
+                        <span>$3700</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card-info">
+                    <img src="./assets/3.png" alt="Icono-ejercicio">
+                    <div class="card-text">
+                        <h4>Aeróbico</h4>
+                        <h5>Objetivo: Mejorar la capadidad aeróbica.</h5>
+                        <p>Personas con poca o nula resistencia. <br></p>
+                        <h6>PLAN MENSUAL</h6>
+                    </div>
+
+                    <div class="card-button">
+                        <span>$3500</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>    
+
+                <div class="card-info">
+                    <img src="./assets/4.png" alt="Icono-ejercicio">
+                    <div class="card-text">
+                        <h4>Anaeróbico</h4>
+                        <h5>Objetivo: Mejorar la fuerza muscular.</h5>
+                        <p>Personas mayores que deben fortalecer músculos. <br></p>
+                        <h6>PLAN MENSUAL</h6>
+                    </div>
+
+                    <div class="card-button">
+                        <span>$3500</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>    
+
+                <div class="card-info">
+                    <img src="./assets/2.png" alt="Icono-ejercicio">
+
+                    <div class="card-text">
+                        <h4>Plan Oro</h4>
+                        <h5>Conseguí tu objetivo!</h5>
+                        <p>Selecciona y obtene tu plan a 12 meses con descuento.</p>
+                        <select>
+                            <option value="Salud y Bienestar">Salud y Bienestar</option>
+                            <option value="Iniciación">Iniciación</option>
+                            <option value="Fortalecimiento">Fortalecimiento</option>
+                            <option value="Aeróbico">Aeróbico</option>
+                            <option value="Anaeróbico">Anaeróbico</option>
+                        </select>
+                    </div>
+
+                    <div class="card-button">
+                        <span>$32.000</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>        
+            </div>
+        </section>
+
+        <section id="consultas">
+            <div class="form-title">
+                <h2>DUDAS Y CONSULTAS</h2>
+                <P>Enviame tus dudas y a la brevedad te estaré respondiendo.</P>
+            </div>
+            <div class="form-info">
+                <label for="nombre y apellido">Nombre y Apellido:</label>
+                <input type="text" id="nombre y apellido"><br>
+
+                <label for="Email">Email:</label>
+                <input type="email" id="Email"> <br>
+
+                <label for="texto">Escribi tu consulta:</label>
+                <textarea name="" id="texto" cols="28" rows="15"></textarea><br>
+
+                <button>Enviar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-list">
+            <div class="footer-logo">
+                <img src="./assets/Move_logo.png" alt="Icono logo">
+            </div>
+            
+
+            <div class="footer-contacto">
+                <h4>Contacto</h4>
+                <div class="whatsapp">
+                    <img src="./assets/whatsapp-removebg-preview.png" alt="Icono de whatsapp">
+                    <p><a href="#">wa.link1112</a></p>
+                </div>
+                <div class="email">
+                    <img src="./assets/email.png" alt="Icono de email">
+                    <p>movement-trainig@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-redes">
+                <h4>Redes sociales</h4>
+                <div class="instagram">
+                    <img src="./assets/instagram-removebg-preview.png" alt="Icono de instagram">
+                    <p>@movemet_trainig</p>
+                </div>
+                <div class="facebook">
+                    <img src="./assets/facebook-removebg-preview.png" alt="Icono de facebook">
+                    <p>Movement Training</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

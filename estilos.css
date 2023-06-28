@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    background: #c4f723ff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.3%;
+    padding: 12px 0px 15px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.movement-logo {
+    height: 125px;
+    width: 125px;
+    padding-top: 3px;
+}
+
+.movement-marca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.movement-marca p {
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-size: 25px;
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list {
+    gap: 40px;
+}
+
+.navbar-list a {
+    color: rgb(100, 100, 97);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cart-icon {
+    height: 30px;
+    width: 60px;
+    padding: 0px 20px 0px 10px;
+    cursor: pointer;
+}
+
+/* MAIN*/
+
+main {
+    width: 100%;
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    border-top: 1px solid #000000ff;
+}
+
+/*SOBRE MI*/
+
+#hero {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    border-radius: 15px;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 30px;
+}
+
+.hero-info h1 {
+    width: 90%;
+    font-size: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 10px;
+    text-align: left;
+    min-width: 500px;
+    color: #c4f723ff;
+}
+
+.hero-info p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+}
+
+.hero-info a {
+    color: #848483ff;
+    background-color: #c4f723ff;
+    width: 40%;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero-card img {
+    width: 100%;
+    margin-top: 7%;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#about {
+    padding: 15%;
+    min-width: 300px;
+    text-align: center;
+    background-color: #848483ff;
+}
+
+.about-icono {
+    width: 20%;
+}
+
+.about-info h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: #c4f723ff;
+}
+
+.about-info p {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+/* SERVICIOS*/
+
+#servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    max-width: 1200px;
+}
+
+.servicios-info {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.servicios-info h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: #c4f723ff;
+}
+
+.servicios-info h3 {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.servicios-info h4 {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.servicios-cards {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.card-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #848483ff;
+    padding: 5%;
+    gap: 10px;
+    transition: transform 0.2s;
+    z-index: 1;
+}
+
+.card-info img {
+    width: 70%;
+    border-radius: 7px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-text h4 {
+    font-size: 16px;
+    font-family:'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 3% 0%;
+}
+
+.card-text h5 {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.card-text p {
+    font-size: 13px;
+}
+
+.card-button {
+    width: 108%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c4f723ff;
+    padding: 6px;
+    border-radius: 2px;
+}
+
+.card-button span {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-button p {
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+}
+.card-button button {
+    padding: 3px;
+}
+
+/*MENU HAMBURGUESA*/
+
+#menu-toggle,
+#cart-toggle,
+.menu-label {
+    display: none;
+}
+
+.menu-label img {
+    width: 30%;
+}
+
+/* CARRITO*/
+.cart {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    width: 17%;
+    padding: 50px 30px;
+    border-left: 1px solid #c4f723ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: calc(100vh - 65px);
+    overflow-y: scroll;
+    display: none;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.838);
+}
+
+.cart::-webkit-scrollbar {
+    display: none;
+}
+
+.cart h2 {
+    color: #c4f723ff;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 13px;
+    border-bottom: 1px solid #c4f723ff;
+}
+
+#cart-toggle:checked + .cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    border: 1px solid #848483ff;
+    padding: 5%;
+}
+
+.cart-item img {
+    width: 40%;
+    margin-left: 60px;
+}
+
+.cart-info {
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.cart button {
+    padding: 2%;
+}
+
+.item-title {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.item-precio {
+    color: #c4f723ff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.item-handler {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-handler-up {
+    background-color: rgb(103, 103, 101);
+    padding: 5px;
+    border: 1px solid #c4f723ff;
+}
+
+.item-quantity {
+    padding: 5px;
+    border-top: 1px solid #c4f723ff;
+    border-bottom: 1px solid #c4f723ff;
+}
+
+.quantity-handler-down {
+    background-color: rgb(103, 103, 101);
+    padding: 5px;
+    border: 1px solid #c4f723ff;
+}
+
+.cart-total {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    border-top: 1px solid #c4f723ff;
+    padding: 2%;
+}
+
+
+/*FORMULARIO DE CONSULTA*/
+
+#consultas {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 8% 0% 13% 0%;
+}
+
+.form-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-title h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    color: #c4f723ff;
+}
+
+.form-title p {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+.form-info button {
+    padding: 4px;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+#footer {
+    background-color: #c4f723ff;
+    width: 100%;
+    height: 33%;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-logo img {
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    margin-left: 5%;
+}
+
+.footer-list {
+    font-size: 16px;
+}
+
+.footer-contacto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    gap: 10px;
+}
+
+.footer-contacto h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.whatsapp {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 7px;
+}
+
+.whatsapp img {
+    width: 6%;
+    height: 6%;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 7px;
+}
+
+.email img {
+    width: 6%;
+    height: 6%;
+}
+
+.footer-redes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-redes h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+.instagram img {
+    width: 7%;
+    height: 7%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 7px;
+}
+
+.facebook img {
+    width: 7%;
+    height: 7%;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 2px;
+}
+
+.facebook { 
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 7px;
+}

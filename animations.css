@@ -1,0 +1,10 @@
+/*INDEX.HTML*/
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 65px;
+}
+
+.card-info:hover {
+    transform: scale(1.1);
+}

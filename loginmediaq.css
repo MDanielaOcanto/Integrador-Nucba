@@ -1,0 +1,43 @@
+@media (max-width: 992px) {
+
+    header {
+        height: 6%;
+        padding: 9px 9px 10px 0px;
+    }
+
+    .form-login {
+        padding-top: 15%;
+    }
+
+    #footer {
+        height: 19%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-list {
+        padding-top: 0;
+    }
+
+}
+
+
+@media (max-width: 562px) {
+
+    .movement-marca p {
+        display: none;
+    }
+
+    #hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-img {
+        width: 80%;
+        height: 80%;
+    }
+    
+}

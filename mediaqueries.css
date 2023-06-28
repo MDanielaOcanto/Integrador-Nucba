@@ -1,0 +1,534 @@
+@media (max-width: 992px) {
+    .navbar {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10px;
+    }
+
+    .cart-icon {
+        height: 35px;
+        width: 65px;
+        margin-right: 0rem;
+        font-weight: 400;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 65px;
+        left: 70%;
+        right: 0%;
+        width: 20%;
+        flex-direction: column;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #c4f723ff;
+        border: 2px solid #848483ff;
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        padding: 45px 30px;
+        align-items: center;
+        gap: 27px;
+        z-index: 2;
+        display: none;
+    }
+
+    .navbar-list a {
+        font-size: 18px;
+    }
+
+    .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    .menu-label img {
+        height: 55px;
+        width: 45px;
+    }
+
+    #menu-toggle:checked + .navbar-list {
+        display: flex;
+    }
+
+    #hero {
+        flex-direction: column;
+    }
+
+    .hero-info {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-info h1 {
+        width: 90%;
+        max-width: 500px;
+        text-align: center;
+        min-width: unset;
+    }
+
+    .hero-info p {
+        width: 70%;
+        max-width: 600px;
+        text-align: center;
+    }
+
+    .hero-card {
+        width: 75%;
+        margin: 13% 0% 17% 0%;
+    }
+
+    .about-icono {
+        width: 30%;
+    }
+
+    .about-info h2 {
+        font-size: 22px;
+    }
+
+    .about-info p {
+        font-size: 20px;
+    }
+
+    #servicios {
+        width: 90%;
+    }
+
+    .cart-item img {
+        margin-left: 45px;
+    }
+
+    #footer {
+        height: 17%;
+    }
+
+    .footer-list img {
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 0%;
+    }
+
+    .footer-contacto {
+        margin-left: 0%;
+    }
+
+    .footer-contacto h4 {
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .navbar-list {
+        top: 65px;
+        left: 67%;
+    }
+
+    .cart {
+        top: 65px;
+    }
+    
+    .servicios-info {
+        width: 80%;
+        margin-bottom: 9%;
+    }
+
+    .servicios-info h2 {
+        font-size: 45px;
+        font-weight: 200;
+    }
+
+    .servicios-info h3 {
+        font-size: 20px;
+    }
+
+    .servicios-info h4 {
+        font-size: 20px;
+    }
+
+    .servicios-cards {
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .card-info {
+        padding: 5% 9%;
+    }
+
+    .card-text h4 {
+        font-size: 17px;
+    }
+
+    .card-text h5 {
+        font-size: 13px;
+    }
+
+    .card-text p {
+        font-size: 14px;
+    }
+
+    .card-button {
+        background-color: transparent;
+    }
+
+    .card-button span {
+        color: #c4f723ff;
+    }
+
+    .cart {
+        width: 22%;
+    }
+
+    .cart-item img {
+        width: 55%;
+        margin-left: 30px;
+    }
+
+    .item-title {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+
+    .item-plan {
+        font-size: 16px;
+    }
+
+    .item-precio {
+        font-size: 17px;
+    }
+
+    .cart-total {
+        font-size: 17px;
+    }
+
+    #footer {
+        height: 24%;
+        width: 94%;
+        display: flex;
+        align-items: center;
+        padding-left: 6%;
+    }
+
+    .form-title h2 {
+        font-size: 45px;
+    }
+
+    .form-title p {
+        font-size: 19;
+    }
+
+    .form-info {
+        font-size: 18px;
+    }
+
+    .footer-logo img {
+        display: none;
+    }
+
+    .footer-list {
+        font-size: 17px;
+    }
+
+    .footer-list p {
+        font-size: 14px;
+    }
+
+    .footer-contacto h4 {
+        font-size: 15px;
+        margin-left: 0%;
+    }
+
+    .whatsapp img {
+        width: 7%;
+        height: 7%;
+    }
+
+    .email img {
+        width: 7%;
+        height: 7%;
+    }
+
+    .footer-redes h4 {
+        font-size: 15px;
+    }
+
+    .instagram img {
+        width: 7%;
+        height: 7%;
+    }
+    
+    .facebook img {
+        width: 7%;
+        height: 7%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .movement-marca p {
+        display: none;
+    }
+
+    .navbar-list {
+        left: 47%;
+        top: 65px;
+        width: 32%;
+        padding: 20px;
+    }
+
+    .cart {
+        margin-top: 0px;
+        width: 30%;
+    }
+
+    .cart-item img {
+        width: 60%;
+        margin-left: 20px;
+    }
+
+    .hero-info h1 {
+        width: 90%;
+        max-width: unset;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 10%;
+    }
+
+    .hero-card img {
+        display: none;
+    }
+
+    .hero-info p {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .hero-info a {
+        width: 60%;
+        padding: 7px 0px;
+    }
+
+    #about {
+        width: 70%;
+        min-width: unset;
+    }
+    
+    .about-icono {
+        width: 50%;
+    }
+
+    .about-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-info h2 {
+        font-size: 30px;
+        width: 80%;
+    }
+    
+    .about-info p {
+        font-size: 16px;
+    }
+
+    #servicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+        padding: 35% 0%;
+    }
+
+    .servicios-cards {
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 2rem;
+    }
+
+    .servicios-info h2 {
+        font-size: 40px;
+    }
+    
+    .servicios-info h3 {
+        font-size: 18px;
+    }
+    
+    .servicios-info h4 {
+        font-size: 16px;
+    }
+
+    .servicios-cards {
+        width: 75%;
+    }
+
+    .card-info {
+        padding: 4%;
+    }
+
+    .card-text h4 {
+        font-size: 18px;
+    }
+
+    .card-text h5 {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .card-text p {
+        font-size: 15px;
+        margin-left: 3px;
+    }
+
+    .card-button span {
+        font-size: 20px;
+    }
+
+    .card-button button {
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    #consultas {
+        width: 80%;
+    }
+
+    .form-title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form-title h2 {
+        font-size: 40px;
+    }
+
+    .form-title p {
+        font-size: 20px;
+    }
+
+    .form-info {
+        max-width: 500px;
+        width: 70%;
+    }
+
+    .form-info label {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #footer {
+        height: 24%;
+        width: 96%;
+        display: flex;
+        align-items: center;
+        padding-left: 4%;
+    }
+
+    .footer-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-contacto h4 {
+        display: none;
+    }
+
+    .whatsapp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whatsapp img {
+        width: 15%;
+        height: 15%;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .email img {
+        width: 15%;
+        height: 15%;
+    }
+
+    .footer-list p {
+        font-size: 12px;
+    }
+
+    .footer-redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-redes h4 {
+        display: none;
+    }
+
+    .instagram {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .facebook {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagram img {
+        width: 15%;
+        height: 15%;
+    }
+    
+    .facebook img {
+        width: 12%;
+        height: 12%;
+    }
+}
+
+@media (max-width: 362px) {
+
+    .navbar-list {
+        left: 30%;
+        top: 67px;
+        width: 40%;
+    }
+
+    .cart {
+        top: 70px;
+        width: 45%;
+    }
+
+    .servicios-info h2 {
+        font-size: 37px;
+    }
+
+}
