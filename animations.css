@@ -1,10 +1,181 @@
 /*INDEX.HTML*/
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 65px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 65px;
+}
+
+.cart-icon:hover {
+  transform: scale(1.1)
 }
 
 .card-info:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.about-info p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+  
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.navbar-list li:hover {
+  animation: pulse 1s;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(1);}
+}
+
+.hero-info a {
+  transition: transform 0.3s ease;
+  box-shadow: 0.03s ease;
+}
+
+.hero-info a:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6) inset;
+}
+
+.card-button button {
+  transition: transform 0.3s ease;
+  box-shadow: 0.03s ease;
+}
+
+.card-button button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6) inset;
+}
+
+.form-info button {
+  transition: transform 0.3s ease;
+  box-shadow: 0.03s ease;
+}
+
+.form-info button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6) inset;
+}
+
+.cart-total button {
+  transition: transform 0.3s ease;
+  box-shadow: 0.03s ease;
+}
+
+.cart-total button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6) inset;
+}
+
+.quantity-handler {
+  transition: all 0.2s ease-in;
+}
+
+.quantity-handler:hover {
+  cursor: pointer;
+  background-color: #c4f723ff;
+  transition: al 0.2s ease-in;
+  color: black;
+  font-weight: bold;
+}
+
+.hero-info a {
+  transition: all 0.2s ease-out;
+}
+
+.hero-info a:hover {
+  background-color: #848483ff;
+  transition: all 0.2s ease-in;
+  color: #ffffff;
+}
+
+@keyframes desplazamiento {
+  0% {transform: translateY(0);}
+  50% {transform: translateY(100px);}
+  100% {transform: translateY(0);}
+}
+
+.about-info p {
+  animation: desplazamiento 2s;
+}
+
+.about-info p:hover,
+.about-info p:focus {
+  animation-name: none;
+}
+
+/*PAGINA DE FORM INSCRIPCION E INICIO*/
+
+.hero-info h1 {
+  animation: fade 2s ease-in;
+}
+
+@keyframes fade {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+.hero-enlaces a {
+  transition: all 0.2s ease-out;
+}
+
+.hero-enlaces a:hover {
+  background-color: #c4f723ff;
+  transition: all 0.2s ease-in;
+  color: black;
+}
+
+/*PAGINA DE LOGIN*/
+
+.form-login h1 {
+  animation: fade 2s ease-in;
+}
+
+@keyframes fade {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+.btn-ingresar {
+  transition: all 0.2s ease-out;
+}
+
+.btn-ingresar:hover {
+  background-color: #c4f723ff;
+  transition: all 0.2s ease-in;
+  color: black;
+}
+
+/*PAGINA DE REGISTER*/
+
+.hero-form h1 {
+  animation: fade 2s ease-in;
+}
+
+@keyframes fade {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+.btn-registrar {
+  transition: all 0.2s ease-out;
+}
+
+.btn-registrar:hover {
+  background-color: #c4f723ff;
+  transition: all 0.2s ease-in;
+  color: black;
 }

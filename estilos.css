@@ -135,7 +135,7 @@ main {
 }
 
 #about {
-    padding: 15%;
+    padding: 13% 15% 20% 15%;
     min-width: 300px;
     text-align: center;
     background-color: #848483ff;
@@ -274,6 +274,8 @@ main {
 }
 .card-button button {
     padding: 3px;
+    border: 1px solid black;
+    border-radius: 2px;
 }
 
 /*MENU HAMBURGUESA*/
@@ -370,7 +372,7 @@ main {
     align-items: center;
 }
 
-.quantity-handler-up {
+.quantity-handler {
     background-color: rgb(103, 103, 101);
     padding: 5px;
     border: 1px solid #c4f723ff;
@@ -380,12 +382,6 @@ main {
     padding: 5px;
     border-top: 1px solid #c4f723ff;
     border-bottom: 1px solid #c4f723ff;
-}
-
-.quantity-handler-down {
-    background-color: rgb(103, 103, 101);
-    padding: 5px;
-    border: 1px solid #c4f723ff;
 }
 
 .cart-total {
@@ -442,6 +438,11 @@ main {
 .form-info button {
     padding: 4px;
     cursor: pointer;
+}
+
+#texto {
+    width: 20rem;
+    height: 15rem;
 }
 
 /*FOOTER*/

@@ -33,6 +33,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 10px;
     }
 
     .hero-img {
@@ -40,4 +41,36 @@
         height: 80%;
     }
     
+}
+
+@media (max-width: 362px) {
+
+    #hero {
+        display: flex;
+        gap: 10px;
+    }
+
+    .hero-img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .form-login {
+        padding-top: 10%;
+    }
+
+    .form-login h1 {
+        width: 80%;
+    }
+
+    #footer {
+        height: 23%;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
 }

@@ -68,13 +68,18 @@ main {
     justify-content: center;
     align-items: center;
     max-width: 1200px;
-    gap: 3rem;
-    margin: 10% 0%; 
-    border-radius: 15px;
     padding: 15% 0%;
 }
 
-#hero h1 {
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-info h1 {
     color: #ffffff;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
